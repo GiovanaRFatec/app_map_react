@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "app_map_react",
+    "slug": "app_map_react",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+      "expo": {
+        "android": {
+          "config": {
+            "googleMaps": {
+              "apiKey": "AIzaSyD8yP8Ue-Mp2LVAbUPX9jgvFqzZryZpvRA"
+            }
+          }
+        },
+        "ios": {
+          "config": {
+            "googleMapsApiKey": "AIzaSyD8yP8Ue-Mp2LVAbUPX9jgvFqzZryZpvRA"
+          }
+        }
+      }
+    },
+    
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+
